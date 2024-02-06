@@ -43,4 +43,5 @@ public class Jonathan_move : MonoBehaviour
     {
         rb.MovePosition(rb.position + moveDir * speed * Time.fixedDeltaTime);
     }
+
 }
