@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0365202afd9bc8848ad5c979dfac653c
+guid: 3313a2bfd89d1c14ab3b604d691fcec6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 1
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
@@ -106,30 +106,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: 4
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: revolver_stuff_kopiera_0
+      name: revolver_stuff_kopiera 1_0
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 32
-        height: 32
+        x: 199
+        y: 231
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,92 +124,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f73a122b8a88224b842291bed93cfde
-      internalID: 1791364667
+      spriteID: 9632bfc0f29ba00438395bf6f919f01d
+      internalID: -1148265886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: revolver_stuff_kopiera_1
+      name: revolver_stuff_kopiera 1_1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
-        width: 32
-        height: 32
+        x: 238
+        y: 238
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 066db9480b625ff45a9517ade6d6a0cb
-      internalID: -1822871329
+      spriteID: 1d0307c857282a846832c984d635c8e0
+      internalID: 198105115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: revolver_stuff_kopiera_2
+      name: revolver_stuff_kopiera 1_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
-        width: 32
-        height: 32
+        x: 202
+        y: 203
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e306571c6899da04283c6e0ff45bef2a
-      internalID: -1901390731
+      spriteID: 94456267f03b30a46afd4e25157937bf
+      internalID: 387779861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: revolver_stuff_kopiera_3
+      name: revolver_stuff_kopiera 1_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 32
-        height: 32
+        x: 234
+        y: 203
+        width: 12
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70aca3527dc73884eb8f8218447d786e
-      internalID: 1072214526
+      spriteID: 13a41b4b8edaf964d864efae5d75a7bb
+      internalID: -1789907271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: revolver_stuff_kopiera_4
+      name: revolver_stuff_kopiera 1_4
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
+        x: 175
+        y: 207
+        width: 2
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eee0b2bd81d2035468882ec23a50df26
-      internalID: 1739479251
+      spriteID: 16cc0370041ffed4291c4c4b71d646ad
+      internalID: 424491784
       vertices: []
       indices: 
       edges: []
@@ -238,11 +225,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      revolver_stuff_kopiera_0: 1791364667
-      revolver_stuff_kopiera_1: -811030293
-      revolver_stuff_kopiera_2: 1785849742
-      revolver_stuff_kopiera_3: -1822871329
-      revolver_stuff_kopiera_4: -1901390731
+      revolver_stuff_kopiera 1_0: -1148265886
+      revolver_stuff_kopiera 1_1: 198105115
+      revolver_stuff_kopiera 1_2: 387779861
+      revolver_stuff_kopiera 1_3: -1789907271
+      revolver_stuff_kopiera 1_4: 424491784
+      revolver_stuff_kopiera 1_5: 1748369938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
