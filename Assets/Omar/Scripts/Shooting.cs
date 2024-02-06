@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
     public PlayerController player;
     public GameObject bulletPrefab;
     public Transform spawnPoint;
+    private SpriteRenderer spriteRenderer;
 
     public int ammo = 1;
     public bool autoFire = true;
@@ -31,6 +32,10 @@ public class Shooting : MonoBehaviour
                 ammo--;
             }
         }
+        float rotation = Input.GetAxis("mouse X" + "mouse Y");
+        transform.Rotate(0f, 0f, rotation);
+
+        
     }
     public void AddAmmo(int amount)
     {
