@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int dmg = 10;
+    public int damage = 10;
     public float speed = 10f;
     public float knockback = 1f;
     public float lifeTime = 5f;
@@ -25,12 +25,12 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             return;
 
-        //Health health = collision.gameObject.GetComponent<Health>();
+        Health health = collision.gameObject.GetComponent<Health>();
 
-        //if (health)
-       // {
-        //    health.TakeDamage(damage);
-       // }
+        if (health)
+        {
+            health.TakeDamage(damage);
+        }
         else
         {
             
