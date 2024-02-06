@@ -25,7 +25,7 @@ public class Shooting : MonoBehaviour
     {
         Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - mTransform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        Quaternion rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+        Quaternion rotation = Quaternion.AngleAxis(angle - 0, Vector3.forward);
         mTransform.rotation = rotation;
 
     }
@@ -41,7 +41,7 @@ public class Shooting : MonoBehaviour
             }
         }
         LAMouse();
-        
+
     }
     public void AddAmmo(int amount)
     {
