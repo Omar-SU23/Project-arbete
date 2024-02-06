@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 [RequireComponent(typeof(AudioSource))]
 
-public class Health : MonoBehaviour
+public class Healthenemy : MonoBehaviour
 {
     public int health = 100;
     public int maxHealth = 100;

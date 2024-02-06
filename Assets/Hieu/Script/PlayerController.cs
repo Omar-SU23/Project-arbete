@@ -30,19 +30,7 @@ public class PlayerController : MonoBehaviour
         if (moveDir.magnitude > 1f)
             moveDir.Normalize();
 
-        // Set animation parameters
-        if(moveDir.sqrMagnitude > 0.01f)
-        {
-            animator.SetFloat("xMove", moveDir.x);
-            animator.SetFloat("yMove", moveDir.y);
-
-            // Flip character
-            spriteRenderer.flipX = moveDir.x > 0f ? true : false;
-
-            lastDir = moveDir;
-        }
-        animator.SetBool("moving", moveDir.sqrMagnitude > 0.01f ? true : false);
-
+        
         
 
     }
