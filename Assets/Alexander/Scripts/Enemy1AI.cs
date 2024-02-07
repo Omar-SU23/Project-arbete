@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    private NavMeshAgent nav;
+    //private NavMeshAgent nav;
     private Animator animator;
     private GameObject player;
     private bool isAttacking = false;
@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         // Get component references
-        nav = GetComponentInParent<NavMeshAgent>();
+        //nav = GetComponentInParent<NavMeshAgent>();
         animator = GetComponent<Animator>();
     }
 
@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         // Send data to Animator
-        animator.SetFloat("move", nav.velocity.magnitude);
+        //animator.SetFloat("move", nav.velocity.magnitude);
 
         // Stop updating if Player is dead
         if (player == null)
@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
             // Move to target position if within view distance
             else if (Vector2.Distance(transform.position, player.transform.position) < viewDistance)
             {
-                nav.destination = player.transform.position;
+                //nav.destination = player.transform.position;
                 Debug.DrawLine(transform.position, player.transform.position);
             }
         }
