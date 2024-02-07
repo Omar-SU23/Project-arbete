@@ -269,11 +269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c75dcedd511f7049b4e90ff89be91a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  checkRadius: 0
-  attackRadius: 0
-  shouldRotate: 0
+  speed: 3
+  checkRadius: 5
+  shouldRotate: 1
   whatIsPlayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   dir: {x: 0, y: 0, z: 0}
