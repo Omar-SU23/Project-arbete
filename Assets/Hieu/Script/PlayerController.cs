@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Animator animator;
+    
     private SpriteRenderer spriteRenderer;
 
     public float speed = 5f;
@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        
         spriteRenderer = GetComponent<SpriteRenderer>();
         lastDir = Vector2.down;
     }
@@ -23,19 +23,16 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Read input
         moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        // Normalize moving vector so the character run equally fast diagonaly
         if (moveDir.magnitude > 1f)
             moveDir.Normalize();
 
         
-        
-
     }
 
-    private void FixedUpdate()
+
+            private void FixedUpdate()
     {
         // Move player
         rb.MovePosition(rb.position + moveDir * speed * Time.fixedDeltaTime);
