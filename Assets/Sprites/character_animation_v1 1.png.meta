@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4c9cebacb3fe3a4083a8dcc4fae992e
+guid: 5f03227214a750e4ea067b0946420aef
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -412,90 +412,6 @@ TextureImporter:
       bones: []
       spriteID: b1233ff17cfc2164baabe7cd0e052033
       internalID: -264642025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_animation_v1_2
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 228
-        width: 13
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 663ecd125b98bb14e85bbb93b9533de1
-      internalID: -1426199089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_animation_v1_3
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 228
-        width: 14
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2999e0ef7501fe439b7a21f329e5288
-      internalID: 857083802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_animation_v1_4
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 228
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 875e164f5437eea4c8e13a626de00fe9
-      internalID: -148485374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_animation_v1_5
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 228
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee9868090b2de1b4b93492ef5cb35bc7
-      internalID: -477924566
       vertices: []
       indices: 
       edges: []
