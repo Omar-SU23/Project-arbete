@@ -8,6 +8,7 @@ public class Jonathan_move : MonoBehaviour
     //private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+
     public float speed = 5f;
     private Vector2 moveDir;
     void Start()
@@ -42,6 +43,14 @@ public class Jonathan_move : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveDir * speed * Time.fixedDeltaTime);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (CompareTag("Enemy"))
+        {
+
+        }
     }
 
 }
