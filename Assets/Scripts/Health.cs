@@ -7,8 +7,8 @@ using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
-    public int health = 100;
-    public int maxHealth = 100;
+    public int health = 5;
+    public int maxHealth = 5;
     [HideInInspector] public bool isDead = false;
     public GameObject deathEffect;
     public AudioClip hurtSound;
