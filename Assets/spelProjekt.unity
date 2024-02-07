@@ -136,9 +136,7 @@ GameObject:
   - component: {fileID: 217672713}
   - component: {fileID: 217672712}
   - component: {fileID: 217672717}
-  - component: {fileID: 217672716}
   - component: {fileID: 217672718}
-  - component: {fileID: 217672719}
   - component: {fileID: 217672722}
   - component: {fileID: 217672721}
   - component: {fileID: 217672720}
@@ -288,27 +286,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &217672716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217672711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba6cdae350ab01543b805304cc867e90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nav: {fileID: 0}
-  animator: {fileID: 0}
-  Player: {fileID: 0}
-  isAttacking: 0
-  obstacleLayerMasks:
-    m_Bits: 0
-  viewDistance: 5
-  attackRange: 2
-  damage: 10
 --- !u!95 &217672717
 Animator:
   serializedVersion: 5
@@ -319,7 +296,7 @@ Animator:
   m_GameObject: {fileID: 217672711}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9706950d394413d4c8cf16508d93ccd2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -345,24 +322,6 @@ MonoBehaviour:
   player: {fileID: 549503152}
   speed: 1
   distanceBetween: 4
---- !u!114 &217672719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217672711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f419ad1d3328a488cdfb6c7034c6a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstacleLayerMasks:
-    serializedVersion: 2
-    m_Bits: 0
-  viewDistance: 5
-  attackRange: 2
-  damage: 10
 --- !u!114 &217672720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +342,19 @@ MonoBehaviour:
   deathSound: {fileID: 0}
   onTakeDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -490,7 +461,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217672711}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11f419ad1d3328a488cdfb6c7034c6a4, type: 3}
   m_Name: 
@@ -950,11 +921,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1719111287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d505d07f30b12b64cb915f1809416079, type: 3}
+  m_Script: {fileID: 11500000, guid: 2436742f59ac8794095656e2a49024aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  smoothing: 3
+  player: {fileID: 549503157}
+  smoothing: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
