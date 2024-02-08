@@ -274,6 +274,9 @@ MonoBehaviour:
   player: {fileID: 0}
   bulletPrefab: {fileID: 6096594208354329278, guid: 3fb2ff86f3e72b545965851a684de46e, type: 3}
   spawnPoint: {fileID: 1911433579}
+  ShootSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  clickSound: {fileID: 0}
   angle: 0
   maxAmmo: 6
   reload: 2
@@ -23332,7 +23335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d505d07f30b12b64cb915f1809416079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1715681603}
   smoothing: 3
 --- !u!1 &1415915903
 GameObject:
@@ -23860,7 +23863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -643.6599, y: 381.83}
+  m_AnchoredPosition: {x: -643.65985, y: 381.83}
   m_SizeDelta: {x: -1287.33, y: -763.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795163231
