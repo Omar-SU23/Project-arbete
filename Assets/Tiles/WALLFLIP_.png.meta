@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e11bfd27b5451b548b13c3f0c6491ed9
+guid: ca087572ff26e7c43a85be7cb3a2931d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_-shit-__0
+      name: WALLFLIP__0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefc7e7db70e86240a1786aa526694c8
+      internalID: 904771677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALLFLIP__1
       rect:
         serializedVersion: 2
         x: 160
@@ -137,18 +158,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25977d1561b0cc4d8fb8fe978df0700
-      internalID: 2026451029
+      spriteID: 37cad957ddb34a74ab8f99f70d1536d3
+      internalID: 567157128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_-shit-__1
+      name: WALLFLIP__2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 128
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -158,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66782a4c8e0a1a4ea41ec2187331768
-      internalID: 1585380241
+      spriteID: 579b8da9fd91cbd45bfbc15990afb7f9
+      internalID: -748105074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_-shit-__2
+      name: WALLFLIP__3
       rect:
         serializedVersion: 2
         x: 160
@@ -179,18 +200,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca73714afdf22854ea55cf8f2231b4f5
-      internalID: 1298552503
+      spriteID: e39b067b63da986498f775ac3fe4cdac
+      internalID: 6116342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_-shit-__3
+      name: WALLFLIP__4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
+        x: 128
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -200,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f1aaa2da3f040c41892eff360010028
-      internalID: 833858811
+      spriteID: 5ebf0f61e4886aa499908042154640b0
+      internalID: -1828790493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_-shit-__4
+      name: WALLFLIP__5
       rect:
         serializedVersion: 2
         x: 160
@@ -221,29 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4a1ce86c32f4d34a98190d9821b92db
-      internalID: -742345062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wall_-shit-__5
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f30e65797f0b754d8d2f476e5840ca0
-      internalID: -1390241677
+      spriteID: d511b4458ba913747a92efb6411e1398
+      internalID: -437200714
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      wall_-shit-__0: 2026451029
-      wall_-shit-__1: 1585380241
-      wall_-shit-__2: 1298552503
-      wall_-shit-__3: 833858811
-      wall_-shit-__4: -742345062
-      wall_-shit-__5: -1390241677
+      WALLFLIP__0: 904771677
+      WALLFLIP__1: 567157128
+      WALLFLIP__2: -748105074
+      WALLFLIP__3: 6116342
+      WALLFLIP__4: -1828790493
+      WALLFLIP__5: -437200714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
