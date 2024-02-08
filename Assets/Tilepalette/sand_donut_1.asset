@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: MOREFUCKINGWALLtry_4_4
+  m_Name: sand_donut_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1898434844, guid: 95c03e4b354c5e7488f964003f7b3f10, type: 3}
+  m_Sprite: {fileID: 1062254688, guid: b04079e5061030d46ae7f2ee7eeb8fdc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
