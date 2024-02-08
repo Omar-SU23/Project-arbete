@@ -28,6 +28,7 @@ public class Shooting : MonoBehaviour
     private void Start()
     {
         mTransform = this.transform;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void LAMouse()
