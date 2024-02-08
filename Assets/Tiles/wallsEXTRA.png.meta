@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca087572ff26e7c43a85be7cb3a2931d
+guid: 9959e4ec92fc01f489d2c20420ac8d24
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WALLFLIP__0
+      name: wallsEXTRA_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47defb7fedb413849a80dc2dea8b41ee
+      internalID: 587542961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallsEXTRA_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249c5f5ef4e917408a79c1505bee917
+      internalID: -32057997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallsEXTRA_2
       rect:
         serializedVersion: 2
         x: 128
@@ -137,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fefc7e7db70e86240a1786aa526694c8
-      internalID: 904771677
+      spriteID: c203afb0c908f464eb30a9827531c590
+      internalID: 1738382161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WALLFLIP__1
+      name: wallsEXTRA_3
       rect:
         serializedVersion: 2
         x: 160
@@ -158,14 +200,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37cad957ddb34a74ab8f99f70d1536d3
-      internalID: 567157128
+      spriteID: 1e282c1aa5c13a34686f3047835c2c94
+      internalID: -2049948847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WALLFLIP__2
+      name: wallsEXTRA_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bc0e650133c614c8e4fc675bc65c91
+      internalID: -299776866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallsEXTRA_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17163cfa783d1e54c81b0d73256bc0cf
+      internalID: 1428702644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallsEXTRA_6
       rect:
         serializedVersion: 2
         x: 128
@@ -179,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579b8da9fd91cbd45bfbc15990afb7f9
-      internalID: -748105074
+      spriteID: ede140c4340cd9646a5f8e6551ad6c92
+      internalID: 1178627502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WALLFLIP__3
+      name: wallsEXTRA_7
       rect:
         serializedVersion: 2
         x: 160
@@ -200,14 +284,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39b067b63da986498f775ac3fe4cdac
-      internalID: 6116342
+      spriteID: 4fca9101a0f329b42a3b52db5bdb66d3
+      internalID: 95564049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WALLFLIP__4
+      name: wallsEXTRA_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f915fe5fb2a216c4faf5613b92751af9
+      internalID: 355397410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallsEXTRA_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0187ecc9ddda249b8d3f59cf8ed633
+      internalID: 462423155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallsEXTRA_10
       rect:
         serializedVersion: 2
         x: 128
@@ -221,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ebf0f61e4886aa499908042154640b0
-      internalID: -1828790493
+      spriteID: 24b092d2e8a505c44884e28e4d7d98f6
+      internalID: 1171144084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WALLFLIP__5
+      name: wallsEXTRA_11
       rect:
         serializedVersion: 2
         x: 160
@@ -242,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d511b4458ba913747a92efb6411e1398
-      internalID: -437200714
+      spriteID: 85023a0951b281842acea6b73103a6f4
+      internalID: 347514172
       vertices: []
       indices: 
       edges: []
@@ -259,12 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WALLFLIP__0: 904771677
-      WALLFLIP__1: 567157128
-      WALLFLIP__2: -748105074
-      WALLFLIP__3: 6116342
-      WALLFLIP__4: -1828790493
-      WALLFLIP__5: -437200714
+      wallsEXTRA_0: 587542961
+      wallsEXTRA_1: -32057997
+      wallsEXTRA_10: 1171144084
+      wallsEXTRA_11: 347514172
+      wallsEXTRA_2: 1738382161
+      wallsEXTRA_3: -2049948847
+      wallsEXTRA_4: -299776866
+      wallsEXTRA_5: 1428702644
+      wallsEXTRA_6: 1178627502
+      wallsEXTRA_7: 95564049
+      wallsEXTRA_8: 355397410
+      wallsEXTRA_9: 462423155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

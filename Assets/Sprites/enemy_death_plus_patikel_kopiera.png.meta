@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 95c03e4b354c5e7488f964003f7b3f10
+guid: e5d9568e82748c7409a4252fe7cabbb0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MOREFUCKINGWALLtry_4_0
+      name: enemy_death_plus_patikel_kopiera_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
-        width: 32
-        height: 32
+        x: 9
+        y: 106
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9bd8f81687e6564e900fe66999ad2d4
-      internalID: -854683120
+      spriteID: 9cee0b37c413c1f4484081afc5df6c20
+      internalID: 137086705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MOREFUCKINGWALLtry_4_1
+      name: enemy_death_plus_patikel_kopiera_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
+        x: 41
+        y: 106
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9dfe0aaa9ec06243ba72d27f74ffa72
-      internalID: 239721376
+      spriteID: f193042532e53b04d9191f721cc6be3e
+      internalID: -631751864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MOREFUCKINGWALLtry_4_2
+      name: enemy_death_plus_patikel_kopiera_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
+        x: 74
+        y: 106
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68c5d3fafbeb24d4b9c59142018165a3
-      internalID: -1928895106
+      spriteID: ac4275e46a4743c45b6c21b591ccd782
+      internalID: 1220624180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MOREFUCKINGWALLtry_4_3
+      name: enemy_death_plus_patikel_kopiera_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
+        x: 107
+        y: 106
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1a009e36a2547442a895c3fb74e1e61
-      internalID: -487787322
+      spriteID: aef32430e49eb5f478dbe34f7ff03f06
+      internalID: -1476289144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MOREFUCKINGWALLtry_4_4
+      name: enemy_death_plus_patikel_kopiera_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 9
+        y: 74
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c36215042688d5d43b72f1e7d762158c
-      internalID: 1898434844
+      spriteID: 7e96c9c0d62f9954c8d8337f0113af52
+      internalID: -514252358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MOREFUCKINGWALLtry_4_5
+      name: enemy_death_plus_patikel_kopiera_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
+        x: 43
+        y: 75
+        width: 10
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +242,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4744cded60dc6ed4bbbd89b6c5e4fa33
-      internalID: 1208665105
+      spriteID: face9a54f4bb249498250b88c643e4d0
+      internalID: -2008255779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_death_plus_patikel_kopiera_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d71e4c698654b4fadaa79cef7b365f
+      internalID: -1244218453
       vertices: []
       indices: 
       edges: []
@@ -259,12 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MOREFUCKINGWALLtry_4_0: -854683120
-      MOREFUCKINGWALLtry_4_1: 239721376
-      MOREFUCKINGWALLtry_4_2: -1928895106
-      MOREFUCKINGWALLtry_4_3: -487787322
-      MOREFUCKINGWALLtry_4_4: 1898434844
-      MOREFUCKINGWALLtry_4_5: 1208665105
+      enemy_death_plus_patikel_kopiera_0: 137086705
+      enemy_death_plus_patikel_kopiera_1: -631751864
+      enemy_death_plus_patikel_kopiera_2: 1220624180
+      enemy_death_plus_patikel_kopiera_3: -1476289144
+      enemy_death_plus_patikel_kopiera_4: -514252358
+      enemy_death_plus_patikel_kopiera_5: -2008255779
+      enemy_death_plus_patikel_kopiera_6: -1244218453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
