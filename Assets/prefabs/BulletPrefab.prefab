@@ -131,7 +131,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6096594208354329278}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -165,3 +165,5 @@ MonoBehaviour:
   speed: 10
   knockback: 1
   lifeTime: 5
+  enemyhealth: 0
+  enemy: {fileID: 6091726158414151366, guid: e221d892dbe1b6944874478c6ae13b37, type: 3}

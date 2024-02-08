@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -8,6 +9,8 @@ public class Bullet : MonoBehaviour
     public float speed = 10f;
     public float knockback = 1f;
     public float lifeTime = 5f;
+    public float enemyhealth;
+    public GameObject enemy;
 
     void Start()
     {
@@ -27,14 +30,16 @@ public class Bullet : MonoBehaviour
 
         Health health = collision.gameObject.GetComponent<Health>();
 
-        if (health)
+        if (collision.CompareTag("Enemy"))
         {
-            health.TakeDamage(damage);
+            enemyhealth--;
+            if(enemyhealth <= 0)
+            {
+                Destroy(enemy);
+            }
+            Destroy(gameObject);
         }
-        else
-        {
-            
-        }
-        Destroy(gameObject);
+        
     }
+
 }

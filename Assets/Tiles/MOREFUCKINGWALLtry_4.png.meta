@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a083175076a1f5c4cb9549de249c4f15
+guid: 95c03e4b354c5e7488f964003f7b3f10
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,115 +123,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5df46ee40c6c2d64f921142fa0ca8f7b
-      internalID: -2145578160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_1
+      name: MOREFUCKINGWALLtry_4_0
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3498343d1ab44b644a3a392819f0ca45
-      internalID: 1834674867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef10070abc430a74f8e6300936d12c34
-      internalID: -1951705875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 089f8ab289616ad47a4d631c82a2ecd8
-      internalID: -551767365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56e0fc503c2088642b0aa72b01adf896
-      internalID: 417173688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_5
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 192
         width: 32
         height: 32
@@ -242,18 +137,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ff08dd8c5ecaf3439b42a517385b677
-      internalID: 1000180315
+      spriteID: 58c8112a174a87e4bbfe1b2bbc8f6cd1
+      internalID: 646997252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_6
+      name: MOREFUCKINGWALLtry_4_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 64
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -263,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cfc31e35d4a2f44a85d3d1e3cb3ca18
-      internalID: 1722076483
+      spriteID: b2665d134f759264cbf4ea20387d2860
+      internalID: 991084612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_7
+      name: MOREFUCKINGWALLtry_4_2
       rect:
         serializedVersion: 2
         x: 32
@@ -284,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1313f57a590f77409f85d85a07f0d64
-      internalID: -1566305055
+      spriteID: 1c33a10f3ac3cee49b21880175302908
+      internalID: 690918196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: projektvecka-spritesheet_kopiera_8
+      name: MOREFUCKINGWALLtry_4_3
       rect:
         serializedVersion: 2
         x: 64
@@ -305,8 +200,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c6073f3a90d26c44b15c1efb6a65675
-      internalID: 1182807172
+      spriteID: 82c06a0a80f807543b5532c16451c33d
+      internalID: -1222517551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREFUCKINGWALLtry_4_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f14831d22cec24da52394eb44e1349
+      internalID: -1108547941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREFUCKINGWALLtry_4_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad2b716a09326b4da4ff909fc3b3158
+      internalID: -500968417
       vertices: []
       indices: 
       edges: []
@@ -322,15 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      projektvecka-spritesheet_kopiera_0: -2145578160
-      projektvecka-spritesheet_kopiera_1: 1834674867
-      projektvecka-spritesheet_kopiera_2: -1951705875
-      projektvecka-spritesheet_kopiera_3: -551767365
-      projektvecka-spritesheet_kopiera_4: 417173688
-      projektvecka-spritesheet_kopiera_5: 1000180315
-      projektvecka-spritesheet_kopiera_6: 1722076483
-      projektvecka-spritesheet_kopiera_7: -1566305055
-      projektvecka-spritesheet_kopiera_8: 1182807172
+      MOREFUCKINGWALLtry_4_0: 646997252
+      MOREFUCKINGWALLtry_4_1: 991084612
+      MOREFUCKINGWALLtry_4_2: 690918196
+      MOREFUCKINGWALLtry_4_3: -1222517551
+      MOREFUCKINGWALLtry_4_4: -1108547941
+      MOREFUCKINGWALLtry_4_5: -500968417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
