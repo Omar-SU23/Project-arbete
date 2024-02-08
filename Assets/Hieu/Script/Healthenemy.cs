@@ -7,8 +7,8 @@ using UnityEngine.Events;
 
 public class Healthenemy : MonoBehaviour
 {
-    public int health = 100;
-    public int maxHealth = 100;
+    public int health;
+    public int maxHealth;
     [HideInInspector] public bool isDead = false;         
     public GameObject deathEffect;
     public AudioClip hurtSound;
@@ -65,6 +65,8 @@ public class Healthenemy : MonoBehaviour
                 nav.isStopped = true;
 
             onDeath.Invoke();
+
+            Destroy(gameObject);
         }
         // Got hit
         else

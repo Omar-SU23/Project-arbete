@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AIChase : MonoBehaviour
 {
+    /*
     public GameObject player;
     public float speed;
     public float distanceBetween;
@@ -38,5 +39,5 @@ public class AIChase : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
         }
-    }
+    }*/
 }

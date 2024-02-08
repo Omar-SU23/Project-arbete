@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8191202917672247102}
   - component: {fileID: 8864527397461511574}
   - component: {fileID: 4450671546174842999}
-  - component: {fileID: 3103000188429279963}
+  - component: {fileID: 2230830899039918708}
   m_Layer: 0
   m_Name: BulletPrefab
   m_TagString: Untagged
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1097835193
   m_SortingLayer: 1
-  m_SortingOrder: 500
+  m_SortingOrder: 100
   m_Sprite: {fileID: 424491784, guid: 3313a2bfd89d1c14ab3b604d691fcec6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -116,7 +116,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0006580353, y: -0.002630353}
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3103000188429279963
+--- !u!114 &2230830899039918708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,10 +158,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6096594208354329278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af78b21128091794f96fd52544eeb5ca, type: 3}
+  m_Script: {fileID: 11500000, guid: 138b587d020edec43855d1bfe242c031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  speed: 10
-  knockback: 1
-  lifeTime: 5
+  bulletSpeed: 7
+  damage: 1
+  lifeTime: 3
+  knockBack: 0
