@@ -9,8 +9,7 @@ public class Bullet : MonoBehaviour
     public float speed = 10f;
     public float knockback = 1f;
     public float lifeTime = 5f;
-    public float enemyhealth;
-    public GameObject enemy;
+    public Health enemyhealth;
 
     void Start()
     {
@@ -32,10 +31,10 @@ public class Bullet : MonoBehaviour
 
         if (collision.CompareTag("Enemy"))
         {
-            enemyhealth--;
+            enemyhealth.TakeDamage(damage);
             if(enemyhealth <= 0)
             {
-                Destroy(enemy);
+                Destroy(collision);
             }
             Destroy(gameObject);
         }

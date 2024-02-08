@@ -64,6 +64,8 @@ public class Health : MonoBehaviour
                 nav.isStopped = true;
 
             onDeath.Invoke();
+
+            Destroy(gameObject);
         }
         // Got hit
         else
