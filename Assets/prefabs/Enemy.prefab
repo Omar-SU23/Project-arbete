@@ -248,6 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   checkRadius: 5
+  attackRadius: 0
   shouldRotate: 1
   whatIsPlayer:
     serializedVersion: 2
@@ -310,8 +311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d542c6b5586a2341915ca4d7548b679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
-  maxHealth: 1
+  health: 5
+  maxHealth: 5
   isDead: 0
   deathEffect: {fileID: 0}
   hurtSound: {fileID: 0}

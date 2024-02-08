@@ -387,6 +387,9 @@ MonoBehaviour:
   player: {fileID: 0}
   bulletPrefab: {fileID: 6096594208354329278, guid: 3fb2ff86f3e72b545965851a684de46e, type: 3}
   spawnPoint: {fileID: 580154961}
+  ShootSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  clickSound: {fileID: 0}
   angle: 0
   maxAmmo: 6
   reload: 2
@@ -535,7 +538,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563872873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d2b96b76200d824e85989689e74b32a, type: 3}
   m_Name: 
