@@ -10,7 +10,6 @@ public class Bullet : MonoBehaviour
     public float knockback = 1f;
     public float lifeTime = 5f;
     public float enemyhealth;
-    public GameObject enemy;
 
     void Start()
     {
@@ -35,7 +34,7 @@ public class Bullet : MonoBehaviour
             enemyhealth--;
             if(enemyhealth <= 0)
             {
-                Destroy(enemy);
+                Destroy(collision);
             }
             Destroy(gameObject);
         }
