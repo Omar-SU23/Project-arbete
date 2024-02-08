@@ -73,17 +73,19 @@ public class Shooting : MonoBehaviour
             return;
         }
 
-       IEnumerator Reload()
-        {
-            isReloading = true;
+       
+    }
+   
+    IEnumerator Reload()
+    {
+        isReloading = true;
 
-            Debug.Log("Reloading...");
+        //Debug.Log("Reloading...");
 
-            yield return new WaitForSeconds(reload);
+        yield return new WaitForSeconds(reload);
 
-            currentAmmo = maxAmmo;
+        currentAmmo = maxAmmo;
 
-            isReloading = false;
-        }
+        isReloading = false;
     }
 }

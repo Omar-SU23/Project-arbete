@@ -9,12 +9,10 @@ public class Bullet : MonoBehaviour
     public float speed = 10f;
     public float knockback = 1f;
     public float lifeTime = 5f;
-    public float enemyhealth;
-    public GameObject enemy;
 
     void Start()
     {
-        GetComponent<Rigidbody2D>().AddForce(transform.right * speed, ForceMode2D.Impulse);
+       
         Destroy(gameObject, lifeTime);
     }
 
@@ -28,18 +26,13 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             return;
 
-        Health health = collision.gameObject.GetComponent<Health>();
-
         if (collision.CompareTag("Enemy"))
         {
-            enemyhealth--;
-            if(enemyhealth <= 0)
-            {
-                Destroy(enemy);
-            }
-            Destroy(gameObject);
+            Health health = collision.gameObject.GetComponent<Health>();
+
+            health.TakeDamage(damage);  
         }
-        
+        Destroy(gameObject);
     }
 
 }
