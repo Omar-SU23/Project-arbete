@@ -7,7 +7,7 @@ public class EnemyAI : MonoBehaviour
 {
     public float speed;
     public float checkRadius;
-    
+    public float attackRadius;
 
     public bool shouldRotate;
 
@@ -35,7 +35,7 @@ public class EnemyAI : MonoBehaviour
     {
         animator.SetBool("moving", isInChaseRange);
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatIsPlayer);
-        
+       
 
         dir = target.position - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
@@ -54,10 +54,7 @@ public class EnemyAI : MonoBehaviour
         {
             MoveCharacter(movement);
         }
-       if(isInAttackRange)
-        {
-            rb.velocity = Vector2.zero;
-        }
+       
     }
 
     private void MoveCharacter(Vector2 dir)
