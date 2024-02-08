@@ -11,6 +11,10 @@ public class Shooting : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Transform mTransform;
     private Vector3 rotation;
+    public AudioClip ShootSound;
+    public AudioClip reloadSound;
+    public AudioClip clickSound;
+    private AudioSource audioSource;
 
     public float angle;
     public int maxAmmo = 6;
@@ -24,6 +28,7 @@ public class Shooting : MonoBehaviour
     private void Start()
     {
         mTransform = this.transform;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void LAMouse()
@@ -37,6 +42,8 @@ public class Shooting : MonoBehaviour
     
     void start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         currentAmmo = maxAmmo;
     }
     
@@ -51,6 +58,11 @@ public class Shooting : MonoBehaviour
 
                 GameObject bullet = Instantiate(bulletPrefab, spawnPoint.position, spawnPoint.rotation);
                 currentAmmo--;
+                audioSource.PlayOneShot(ShootSound);
+            }
+            else
+            {
+                audioSource.PlayOneShot(clickSound);
             }
         }
         LAMouse();

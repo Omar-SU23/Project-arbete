@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 4801521577777984563}
   - component: {fileID: 265194937573513728}
   - component: {fileID: 6002697076732026502}
-  - component: {fileID: 8859904242799029171}
   - component: {fileID: 3250122141875551381}
   - component: {fileID: 6929873841317231247}
   - component: {fileID: -1556166405333670912}
+  - component: {fileID: -5609606188213441678}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -207,30 +207,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8859904242799029171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6091726158414151366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d204e769bc82e4d4e8107cad39d389fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
-  isDead: 0
-  deathEffect: {fileID: 0}
-  hurtSound: {fileID: 0}
-  deathSound: {fileID: 0}
-  onTakeDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDeath:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!50 &3250122141875551381
 Rigidbody2D:
   serializedVersion: 4
@@ -322,3 +298,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.28125}
   m_EdgeRadius: 0
+--- !u!114 &-5609606188213441678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6091726158414151366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d542c6b5586a2341915ca4d7548b679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  maxHealth: 1
+  isDead: 0
+  deathEffect: {fileID: 0}
+  hurtSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  onTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
