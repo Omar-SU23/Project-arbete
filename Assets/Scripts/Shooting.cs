@@ -29,6 +29,7 @@ public class Shooting : MonoBehaviour
     {
         mTransform = this.transform;
         audioSource = GetComponent<AudioSource>();
+        currentAmmo = maxAmmo;
     }
 
     private void LAMouse()
@@ -39,13 +40,7 @@ public class Shooting : MonoBehaviour
         mTransform.rotation = rotation;
 
     }
-    
-    void start()
-    {
-        audioSource = GetComponent<AudioSource>();
 
-        currentAmmo = maxAmmo;
-    }
     
     void Update()
     {
