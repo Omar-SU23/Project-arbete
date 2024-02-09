@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c75dcedd511f7049b4e90ff89be91a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   checkRadius: 5
   attackRadius: 0
   shouldRotate: 1
