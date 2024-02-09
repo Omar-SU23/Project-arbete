@@ -83,9 +83,13 @@ public class Health : MonoBehaviour
     }
 
     // Call this on pick up event
-    public void AddHealth(int hp)
+    public void AddHealth(int amount)
     {
-        health = (int)Mathf.Clamp(health += hp, 0, maxHealth);
+        //health = (int)Mathf.Clamp(health += hp, 0, maxHealth);
+
+        health += amount;
+
+
     }
 
     // Call this on last frame of death animation
@@ -93,4 +97,5 @@ public class Health : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
 }

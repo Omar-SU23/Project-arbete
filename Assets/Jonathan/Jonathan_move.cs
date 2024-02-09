@@ -45,12 +45,4 @@ public class Jonathan_move : MonoBehaviour
         rb.MovePosition(rb.position + moveDir * speed * Time.fixedDeltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (CompareTag("Enemy"))
-        {
-
-        }
-    }
-
 }
