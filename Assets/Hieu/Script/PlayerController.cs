@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     public float speed = 5f;
+    public Health playerhealth;
+    public GameObject gameoverpalen;
     private Vector2 moveDir;
     [HideInInspector] public Vector2 lastDir;
 
@@ -27,6 +29,10 @@ public class PlayerController : MonoBehaviour
 
         if (moveDir.magnitude > 1f)
             moveDir.Normalize();
+        if((float)playerhealth.health <= 0)
+        {
+           gameoverpalen.SetActive(true);
+        }
 
         
     }
