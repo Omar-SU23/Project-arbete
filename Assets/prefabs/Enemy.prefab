@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c75dcedd511f7049b4e90ff89be91a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1.5
   checkRadius: 5
   attackRadius: 0
   shouldRotate: 1
@@ -324,7 +324,7 @@ MonoBehaviour:
   onDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11500000, guid: dc13c2a054b11064ea3b79eee275821e, type: 3}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 0
@@ -349,4 +349,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  playerHealth: {fileID: 0}
+  playerhealth: {fileID: 0}
+  gameoverpanel: {fileID: 0}
