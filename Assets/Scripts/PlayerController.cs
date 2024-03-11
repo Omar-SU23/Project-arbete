@@ -29,10 +29,7 @@ public class PlayerController : MonoBehaviour
 
         if (moveDir.magnitude > 1f)
             moveDir.Normalize();
-        if((float)playerhealth.health <= 0)
-        {
-           gameoverpalen.SetActive(true);
-        }
+        
 
         
     }
