@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
     private AudioSource audioSource;
     private Animator animator;
     private NavMeshAgent nav;
+    public bool destroyOnDead = false;
 
 
     void Awake()
@@ -66,7 +67,10 @@ public class Health : MonoBehaviour
 
             onDeath.Invoke();
 
-            Destroy(gameObject);
+            if(destroyOnDead == true)
+            {
+                Destroy(gameObject);
+            }
         }
         // Got hit
         else

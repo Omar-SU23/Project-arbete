@@ -54,7 +54,7 @@ public class Healthenemy : MonoBehaviour
 
             // Play death animation
             if (animator != null)
-                animator.SetTrigger("dead");
+                animator.SetTrigger(1);
 
             // Play death sound
             if(deathSound != null)
@@ -66,7 +66,7 @@ public class Healthenemy : MonoBehaviour
 
             onDeath.Invoke();
 
-            Destroy(gameObject);
+            
         }
         // Got hit
         else
@@ -90,8 +90,5 @@ public class Healthenemy : MonoBehaviour
     }
 
     // Call this on last frame of death animation
-    public void DestroyObject()
-    {
-        Destroy(gameObject);
-    }
+    
 }
