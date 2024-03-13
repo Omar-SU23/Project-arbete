@@ -8,6 +8,7 @@ public class EnemyAttack : MonoBehaviour
     public Health playerhealth;
     public GameObject gameoverpanel;
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Player")

@@ -18,7 +18,7 @@ public class Shooting : MonoBehaviour
 
     public float angle;
     public int maxAmmo = 6;
-    private int currentAmmo;
+    public int currentAmmo = 6;
     public float reload = 2f;
     private bool isReloading = false;
     public float shootingRate = 0.24f;
