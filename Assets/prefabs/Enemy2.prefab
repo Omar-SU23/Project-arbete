@@ -294,6 +294,7 @@ MonoBehaviour:
   onDeath:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnDead: 1
 --- !u!61 &2263389741115859096
 BoxCollider2D:
   m_ObjectHideFlags: 0

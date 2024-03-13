@@ -742,12 +742,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammo:
+  - {fileID: 1561020479}
   - {fileID: 173359178}
   - {fileID: 1343680914}
   - {fileID: 1582320807}
   - {fileID: 444719244}
   - {fileID: 980858004}
-  - {fileID: 1561020479}
   shootingScript: {fileID: 660198953}
 --- !u!1001 &799337573
 PrefabInstance:
@@ -1302,6 +1302,7 @@ MonoBehaviour:
   onDeath:
     m_PersistentCalls:
       m_Calls: []
+  destroyOnDead: 0
 --- !u!82 &1955673813
 AudioSource:
   m_ObjectHideFlags: 0
