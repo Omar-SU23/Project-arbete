@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +11,7 @@ public static class GameData
     // Save data, call GameData.SaveData() when game is in a suitable state
     public static void SaveData()
     {
-        PlayerPrefs.SetInt("highscore", highscore);
+        PlayerPrefs.SetInt("highscore", highscore); 
         PlayerPrefs.Save();
     }
 
@@ -19,7 +19,7 @@ public static class GameData
     // Load data, call GameData.LoadData() once in a Start or Awake method
     public static void LoadData()
     {
-        highscore = PlayerPrefs.GetInt("highscore", 0);
+        highscore = PlayerPrefs.GetInt("highscore",0);
     }
-
+    
 }

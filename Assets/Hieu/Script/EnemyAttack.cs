@@ -9,10 +9,12 @@ public class EnemyAttack : MonoBehaviour
     public GameObject gameoverpanel;
 
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
+            var hp = collision.gameObject.GetComponent<Health>();
             playerhealth.TakeDamage(damage);
         }
         if ((float)playerhealth.health <= 0)
@@ -21,4 +23,11 @@ public class EnemyAttack : MonoBehaviour
         }
     }
 
+
+    public void FindPlayer()
+    {
+        playerhealth = GameObject.Find("Player").GetComponent<Health>();
+        gameoverpanel = GameObject.Find("gameOver");
+        
+    }
 }

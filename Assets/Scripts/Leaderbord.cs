@@ -8,26 +8,14 @@ public class Leaderbord : MonoBehaviour
 {
     private int score = 0;
     public TextMeshProUGUI scoretxt;
-    public List<int> scores = new List<int>() {0,0,0,0,0,0,0,0,0,0};
 
     void Start()
     {
-        scoretxt.text = score.ToString();
+        scoretxt.text = GameManager.instance.currentScore.ToString();
     }
 
     // Update is called once per frame
     void Update()
-    {
-        
-    }
-
-    public void Addscore()
-    {
-        score += Random.Range(100, 500);
-        scoretxt.text = score.ToString();
-    }
-
-    public void Savescore(int score)
     {
         
     }
