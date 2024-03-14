@@ -332,8 +332,8 @@ MonoBehaviour:
   isDead: 0
   deathEffect: {fileID: 0}
   hitParticles: {fileID: 4728404944348279032, guid: e103d02bbb7b2ee4cb22cd3842d6380b, type: 3}
-  hurtSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  hurtSound: {fileID: 8300000, guid: f378c50e15ed56e4387d77d4ece3df6c, type: 3}
+  deathSound: {fileID: 8300000, guid: 89e6a64c8a742524ab7ac36bc43c2c51, type: 3}
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
