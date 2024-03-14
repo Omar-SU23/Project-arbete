@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 222226528}
   - component: {fileID: 222226527}
   m_Layer: 5
-  m_Name: startbutton (1)
+  m_Name: controlsbutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Controls
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &222226528
@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 252066324}
   - component: {fileID: 252066323}
   m_Layer: 5
-  m_Name: startbutton (3)
+  m_Name: Creditsbutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,16 +339,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1608580936}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1608580937}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: GotoScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Credits
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &252066324
@@ -481,7 +481,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &270614346
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 1554990537}
   - component: {fileID: 1554990536}
   m_Layer: 5
-  m_Name: startbutton (2)
+  m_Name: quitbutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
