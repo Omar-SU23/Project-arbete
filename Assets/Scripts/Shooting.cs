@@ -41,6 +41,13 @@ public class Shooting : MonoBehaviour
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         mTransform.rotation = rotation;
 
+        Vector3 localScale = Vector3.one;
+        if (angle > 90 || angle < -90)
+            localScale.y = -1f;
+        else
+            localScale.y = +1f;
+        mTransform.localScale = localScale;
+
     }
 
     
@@ -60,6 +67,7 @@ public class Shooting : MonoBehaviour
                 isFire = true;
 
                 StartCoroutine(FireRate());
+
             }
             else
             {
