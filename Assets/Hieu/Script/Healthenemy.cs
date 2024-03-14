@@ -7,10 +7,11 @@ using UnityEngine.Events;
 
 public class Healthenemy : MonoBehaviour
 {
-    public int health;
-    public int maxHealth;
-    [HideInInspector] public bool isDead = false;         
+    public int health = 5;
+    public int maxHealth = 5;
+    [HideInInspector] public bool isDead = false;
     public GameObject deathEffect;
+    public GameObject hitParticles;
     public AudioClip hurtSound;
     public AudioClip deathSound;
     public UnityEvent onTakeDamage;
@@ -18,7 +19,7 @@ public class Healthenemy : MonoBehaviour
     private AudioSource audioSource;
     private Animator animator;
     private NavMeshAgent nav;
-
+    public bool destroyOnDead = false;
 
 
     void Awake()
@@ -49,15 +50,15 @@ public class Healthenemy : MonoBehaviour
             isDead = true;
 
             // Instatiate death particles
-            if(deathEffect != null)
+            if (deathEffect != null)
                 Instantiate(deathEffect, transform.position, transform.rotation);
 
             // Play death animation
             if (animator != null)
-                animator.SetTrigger(1);
+                animator.SetTrigger("dead");
 
             // Play death sound
-            if(deathSound != null)
+            if (deathSound != null)
                 audioSource.PlayOneShot(deathSound);
 
             // stop updating navmesh for objects with pathfinding
@@ -66,29 +67,42 @@ public class Healthenemy : MonoBehaviour
 
             onDeath.Invoke();
 
-            
+            if (destroyOnDead == true)
+            {
+                Destroy(gameObject);
+            }
         }
         // Got hit
         else
         {
             // Play hurt sound effect
-            if(hurtSound != null)
+            if (hurtSound != null)
                 audioSource.PlayOneShot(hurtSound);
 
             // Play hit animation
             if (animator != null)
                 animator.SetTrigger("hit");
 
+            Instantiate(hitParticles, transform.position, Quaternion.identity);
+
             onTakeDamage.Invoke();
         }
     }
 
     // Call this on pick up event
-    public void AddHealth(int hp)
+    public void AddHealth(int amount)
     {
-        health = (int)Mathf.Clamp(health += hp, 0, maxHealth);
+        //health = (int)Mathf.Clamp(health += hp, 0, maxHealth);
+
+        health += amount;
+
+
     }
 
     // Call this on last frame of death animation
-    
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
+    }
+
 }

@@ -46,7 +46,7 @@ public class EnemyAI : MonoBehaviour
             animator.SetFloat("xMove", dir.x);
             animator.SetFloat("yMove", dir.y);
         }
-
+        
     }
 
     private void FixedUpdate()

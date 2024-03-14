@@ -28,7 +28,7 @@ public class Bullet : MonoBehaviour
 
         if (collision.CompareTag("Enemy"))
         {
-            Health health = collision.gameObject.GetComponent<Health>();
+            Healthenemy health = collision.gameObject.GetComponent<Healthenemy>();
 
             health.TakeDamage(damage);  
         }

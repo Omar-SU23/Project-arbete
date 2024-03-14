@@ -83,6 +83,7 @@ public class Health : MonoBehaviour
             if (animator != null)
                 animator.SetTrigger("hit");
 
+
             onTakeDamage.Invoke();
         }
     }
