@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 
@@ -23,6 +24,7 @@ public class Shooting : MonoBehaviour
     private bool isReloading = false;
     public float shootingRate = 0.24f;
     private float shootingTimer = 0f;
+    private bool isFire = false;
 
     
     private void Start()
@@ -47,13 +49,17 @@ public class Shooting : MonoBehaviour
         if (Input.GetButtonDown("Fire"))
         {
             
-            if (currentAmmo > 0)
+            if (currentAmmo > 0 && isFire == false)
             {
                 float angle = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
 
                 GameObject bullet = Instantiate(bulletPrefab, spawnPoint.position, spawnPoint.rotation);
                 currentAmmo--;
                 audioSource.PlayOneShot(ShootSound);
+
+                isFire = true;
+
+                StartCoroutine(FireRate());
             }
             else
             {
@@ -62,8 +68,9 @@ public class Shooting : MonoBehaviour
         }
         LAMouse();
 
-        if(currentAmmo <=0)
+        if(currentAmmo <=0 && isReloading == false)
         {
+            
             StartCoroutine(Reload());
             return;
         }
@@ -74,7 +81,6 @@ public class Shooting : MonoBehaviour
     IEnumerator Reload()
     {
         isReloading = true;
-
         //Debug.Log("Reloading...");
 
         yield return new WaitForSeconds(reload);
@@ -82,5 +88,11 @@ public class Shooting : MonoBehaviour
         currentAmmo = maxAmmo;
 
         isReloading = false;
+    }
+
+    IEnumerator FireRate()
+    {
+        yield return new WaitForSeconds(shootingRate);
+        isFire = false;
     }
 }
