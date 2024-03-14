@@ -332,8 +332,8 @@ MonoBehaviour:
   isDead: 0
   deathEffect: {fileID: 0}
   hitParticles: {fileID: 4728404944348279032, guid: e103d02bbb7b2ee4cb22cd3842d6380b, type: 3}
-  hurtSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  hurtSound: {fileID: 8300000, guid: 04675bd365c255b44957f3bc5c40154d, type: 3}
+  deathSound: {fileID: 8300000, guid: 85d961fb4b8735240b12c0cd27d7f953, type: 3}
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -368,6 +368,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Leaderbord, Assembly-CSharp
+        m_MethodName: Addscore
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

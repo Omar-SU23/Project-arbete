@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     private Animator animator;
     private NavMeshAgent nav;
     public bool destroyOnDead = false;
-
+    public int score = 0;
 
     void Awake()
     {
@@ -66,6 +66,9 @@ public class Health : MonoBehaviour
                 nav.isStopped = true;
 
             onDeath.Invoke();
+
+            GameManager.instance.AddScore(Random.Range(100, 501));
+            
 
             if(destroyOnDead == true)
             {
