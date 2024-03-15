@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     public int damage;
-    public Health playerhealth;
+    //public Health playerhealth;
     public GameObject gameoverpanel;
 
 
@@ -15,18 +15,14 @@ public class EnemyAttack : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             var hp = collision.gameObject.GetComponent<Health>();
-            playerhealth.TakeDamage(damage);
+            hp.TakeDamage(damage);
         }
-        if ((float)playerhealth.health <= 0)
-        {
-            gameoverpanel.SetActive(true);
-        }
+    
     }
 
 
     public void FindPlayer()
     {
-        playerhealth = GameObject.Find("Player").GetComponent<Health>();
         gameoverpanel = GameObject.Find("gameOver");
         
     }

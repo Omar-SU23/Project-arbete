@@ -247,8 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c75dcedd511f7049b4e90ff89be91a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
-  checkRadius: 5
+  speed: 1.6
+  checkRadius: 100
   attackRadius: 0
   shouldRotate: 1
   whatIsPlayer:
@@ -313,7 +313,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  playerhealth: {fileID: 0}
   gameoverpanel: {fileID: 0}
 --- !u!114 &3274693536030002834
 MonoBehaviour:
@@ -327,8 +326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d204e769bc82e4d4e8107cad39d389fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 1
+  maxHealth: 1
   isDead: 0
   deathEffect: {fileID: 0}
   hitParticles: {fileID: 4728404944348279032, guid: e103d02bbb7b2ee4cb22cd3842d6380b, type: 3}

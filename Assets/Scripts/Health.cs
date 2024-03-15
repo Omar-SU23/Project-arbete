@@ -66,12 +66,12 @@ public class Health : MonoBehaviour
                 nav.isStopped = true;
 
             onDeath.Invoke();
-
             GameManager.instance.AddScore(Random.Range(100, 501));
-            
 
+            if (destroyOnDead == true)
+            {
                 Destroy(gameObject);
-
+            }
         }
         // Got hit
         else
