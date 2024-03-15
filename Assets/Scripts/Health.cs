@@ -70,10 +70,8 @@ public class Health : MonoBehaviour
             GameManager.instance.AddScore(Random.Range(100, 501));
             
 
-            if(destroyOnDead == true)
-            {
                 Destroy(gameObject);
-            }
+
         }
         // Got hit
         else
